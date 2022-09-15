@@ -44,5 +44,10 @@ public class RedisController {
     public String testMain() {
         return "main1";
     }
+    
+    @GetMapping
+    public String testPull() {
+        return "pull1";
+    }
 
 }
