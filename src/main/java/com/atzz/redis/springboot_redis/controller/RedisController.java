@@ -25,4 +25,9 @@ public class RedisController {
         return name;
     }
 
+    @GetMapping
+    public String testGit() {
+        return "add";
+    }
+
 }
