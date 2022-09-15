@@ -35,4 +35,9 @@ public class RedisController {
         return "hot-fix";
     }
 
+    @GetMapping
+    public String testMain() {
+        return "main1";
+    }
+
 }
